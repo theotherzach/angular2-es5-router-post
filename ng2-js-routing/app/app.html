@@ -1,0 +1,14 @@
+<div class="container">
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a [router-link]="['/about']">About</a></li>
+      <li><a [router-link]="['/post', {id: 1}]">Post 1</a></li>
+      <li><a [router-link]="['/post', {id: 2}]">Post 2</a></li>
+    </ul>
+  </nav>
+
+  <div class="main">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+app .container {
+  display: -webkit-flex;
+  display: flex;
+}
+app nav {
+  width: 200px;
+}
+app .main {
+  -webkit-flex: 1;
+  flex: 1;
+}
